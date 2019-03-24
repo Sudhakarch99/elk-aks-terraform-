@@ -12,7 +12,7 @@ Assumes CLI Version = azure-cli (2.0.43) ** Required for RBAC changes
 
 HashiCorp Terraform installed. ==> https://terraform.io/downloads.html
 
-export VER="0.11.8"
+export VER="0.11.13"
 wget https://releases.hashicorp.com/terraform/${VER}/terraform_${VER}_linux_amd64.zip
 unzip terraform_${VER}_linux_amd64.zip
 sudo mv terraform /usr/local/bin/
