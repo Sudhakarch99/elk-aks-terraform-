@@ -6,11 +6,11 @@ Infrastructure as Code using terraform - Azure Kubernetes Clusters
 
 Prerequisites
 
-Azure CLI installed.
+Azure CLI installed. ==> https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
 
 Assumes CLI Version = azure-cli (2.0.43) ** Required for RBAC changes
 
-HashiCorp Terraform installed.
+HashiCorp Terraform installed. ==> https://terraform.io/downloads.html
 
 export VER="0.11.8"
 wget https://releases.hashicorp.com/terraform/${VER}/terraform_${VER}_linux_amd64.zip
@@ -40,9 +40,9 @@ appId -> Client id.
 password -> Client secret.
 tenant -> Tenant id.
 
-Export environment variables to configure the Azure Terraform provider.
+Export environment variables to configure the Azure Terraform provider. ==> https://www.terraform.io/docs/providers/azurerm/index.html
 
-A great tool to do this automatically with is direnv.
+A great tool to do this automatically with is direnv. ==> https://direnv.net/
 
 export ARM_SUBSCRIPTION_ID="YOUR_SUBSCRIPTION_ID"
 export ARM_TENANT_ID="TENANT_ID"
