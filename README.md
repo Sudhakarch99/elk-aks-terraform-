@@ -1,4 +1,4 @@
-# elk-aks-terraform - Can Alptekin
+# Elk-Aks-Terraform - Can Alptekin
 ELK deploy on Azure with Terraform
 
 Introduction
