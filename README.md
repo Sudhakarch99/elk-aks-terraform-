@@ -25,7 +25,9 @@ After creating a Service Principal you MUST add API access for Windows Azure Act
 Read and write all applications
 Sign in and read user profile
 # AZ Login and Select Subscriptions
+
 Az Ad Login
+
 Az account set --subscription "subscriptionID"
 
 
