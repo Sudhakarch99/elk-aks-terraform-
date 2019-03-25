@@ -30,4 +30,6 @@ Az Ad Login
 
 Az account set --subscription "subscriptionID"
 
+# Deploy AKS
 
+After login, run aks/deploy.sh with an authorized user ( Azure ).
