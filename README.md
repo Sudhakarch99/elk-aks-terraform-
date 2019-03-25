@@ -18,10 +18,6 @@ unzip terraform_${VER}_linux_amd64.zip
 sudo mv terraform /usr/local/bin/
 Setup Terraform Environment Variables
 
-Generate Azure client id and secret.
-
-After creating a Service Principal you MUST add API access for Windows Azure Active Directory and enable the following permissions
-
 Read and write all applications
 Sign in and read user profile
 # AZ Login and Select Subscriptions
